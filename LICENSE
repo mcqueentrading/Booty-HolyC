@@ -1,0 +1,59 @@
+Booty Non-Commercial Share-Back License 1.0 (BNCSL-1.0)
+
+Copyright (c) 2026 Toni McQueen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated binary release materials (the "Software"), to
+use, copy, modify, and redistribute the Software for Non-Commercial Purposes,
+subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. The Software may not be used for a Commercial Purpose without prior written
+   permission from the copyright holder.
+
+3. The name "Booty", the Booty branding, and the name of the copyright holder
+   may not be used to endorse or promote derived products without prior written
+   permission.
+
+4. Any person or organisation that modifies the Software must provide the
+   copyright holder, without charge, a complete copy of the modified executable
+   and all patches, source code, build scripts, configuration changes,
+   documentation, or other materials reasonably necessary to reproduce the
+   modification. The share-back must be made within 30 days after the modified
+   version is first used, tested, published, or distributed, whichever occurs
+   first. It may be submitted through the official Booty repository or another
+   delivery method designated by the copyright holder.
+
+5. Any redistributed modified version or derivative work must retain this
+   licence, clearly identify that it has been modified, state the identity of
+   the modifier, and include the date and a description of the changes. No
+   additional terms may remove the non-commercial or share-back requirements.
+
+"Non-Commercial Purpose" means personal use, education, academic research,
+charitable activity, hobby development, evaluation, or redistribution without
+commercial advantage or monetary compensation.
+
+"Commercial Purpose" means use of the Software that is primarily intended for
+commercial advantage or monetary compensation, including, without limitation:
+
+- selling or licensing the Software or a product containing the Software;
+- charging for access to the Software or a service substantially powered by it;
+- using the Software in paid client work or as part of a paid deliverable;
+- bundling the Software with a commercial product or subscription; or
+- using the Software internally where its primary purpose is to support a
+  revenue-generating product or service.
+
+Commercial licences and exceptions may be requested from the copyright holder.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This licence contains non-commercial-use and mandatory share-back restrictions
+and is therefore not an Open Source Initiative approved open-source licence.
