@@ -23,7 +23,7 @@ window.
 - configurable transparency, colours, font, selection, and cursor
 
 The binary was built from private Booty development checkpoint
-`fc9849230ff7dd0a4e33126e70a478a66466bd37`.
+`a54bfc0386cef8679d6ae6a55e83ed59a0a9c365`.
 
 ## Licence
 
