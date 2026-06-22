@@ -8,7 +8,8 @@ window.
 - stripped Booty executable
 - compressed portable release archive
 - verified Arch Linux `booty-terminal-bin` package
-- SHA-256 manifest covering all three downloadable artifacts
+- cleared Booty peach graphics proof asset
+- SHA-256 manifest covering the downloadable artifacts
 - default Booty configuration and desktop integration
 
 ## Terminal Features
@@ -22,7 +23,7 @@ window.
 - configurable transparency, colours, font, selection, and cursor
 
 The binary was built from private Booty development checkpoint
-`8089d2ec2dca8a0ebe399159db123f12efc67e15`.
+`fc9849230ff7dd0a4e33126e70a478a66466bd37`.
 
 ## Licence
 
