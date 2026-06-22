@@ -13,12 +13,16 @@ Initial precompiled Linux `x86_64` preview.
 - Native Wayland file drag-and-drop with shell-safe path insertion
 - Configurable transparency, colours, font, cursor, and selection
 - Initial JIT and actor runtime scaffolding
+- TLauncher/fzf alternate-screen selection movement through corrected arrow
+  key mapping and SGR background parsing
+- Improved `neofetch` scrollback fitting after font resize and viewport scroll
 
 ## Verified Workflows
 
 - Bash and readline history/editing
 - Codex CLI
 - `nmtui`
+- TLauncher/fzf
 - `htop`
 - `cmatrix`
 - `neofetch`
@@ -30,7 +34,7 @@ Initial precompiled Linux `x86_64` preview.
 The release binary was produced from the private Booty development checkpoint:
 
 ```text
-8089d2ec2dca8a0ebe399159db123f12efc67e15
+1f6e8dd41142904183dde6eaf16cd1bd978bb200
 ```
 
 The executable reports `Booty 0.0.1-window - HolyC` at startup.
