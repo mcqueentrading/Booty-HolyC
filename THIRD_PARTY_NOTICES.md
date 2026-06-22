@@ -1,7 +1,7 @@
 # Third-Party Notices
 
 The Booty licence applies only to Booty-authored material. The rights and
-obligations below remain independent of BNCSL-1.1.
+obligations below remain independent of BOOTY-1.1.
 
 ## Ratty
 
@@ -55,5 +55,5 @@ Wayland client, libc, and libm. This released executable does not dynamically
 link libGL.
 
 Users should obtain complete library copyright and licence texts from their
-Linux distribution packages. Nothing in BNCSL-1.1 replaces or restricts rights
+Linux distribution packages. Nothing in BOOTY-1.1 replaces or restricts rights
 granted by a third-party licence.

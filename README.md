@@ -119,7 +119,8 @@ compatibility, broader VT coverage, packaging, and memory optimization.
 This release is distributed as a precompiled binary. Application source code
 is not included. The binary may be used, copied, modified, and redistributed
 for non-commercial purposes under the
-[Booty Non-Commercial Share-Back License 1.1](LICENSE). Commercial use requires
+[BOOTY-1.1](LICENSE), the Booty Original Ownership, Terms and Yield-Back
+License. Commercial use requires
 prior written permission, and all modifications must be shared back with the
 copyright holder together with the materials needed to reproduce them.
 

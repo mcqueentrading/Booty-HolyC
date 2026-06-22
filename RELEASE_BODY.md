@@ -26,9 +26,10 @@ The binary was built from private Booty development checkpoint
 
 ## Licence
 
-Booty 0.0.1 is distributed under the custom Booty Non-Commercial Share-Back
-License 1.1 (BNCSL-1.1). Commercial use requires prior written permission.
+Booty 0.0.1 is distributed under the custom Booty Original Ownership, Terms
+and Yield-Back License 1.1 (BOOTY-1.1). Commercial use requires prior written
+permission.
 Modified versions must be shared back with the copyright holder together with
-the materials needed to reproduce the modification. BNCSL-1.1 is not an
+the materials needed to reproduce the modification. BOOTY-1.1 is not an
 OSI-approved open-source licence. Third-party rights are listed separately in
 `THIRD_PARTY_NOTICES.md`.

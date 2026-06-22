@@ -6,7 +6,7 @@ pkgrel=1
 pkgdesc="Binary-only Pilgrim-HolyC Wayland terminal preview"
 arch=('x86_64')
 url="https://github.com/mcqueentrading/Booty-HolyC"
-license=('custom:BNCSL-1.1')
+license=('custom:BOOTY-1.1')
 depends=('bash' 'glibc' 'sdl2-compat' 'sdl2_ttf' 'wayland' 'noto-fonts')
 provides=('booty-terminal')
 conflicts=('booty-terminal')
@@ -15,7 +15,7 @@ source=('booty-launcher' 'booty.desktop')
 source_x86_64=("booty-${pkgver}-linux-x86_64.tar.zst::${url}/releases/download/v${pkgver}/booty-${pkgver}-linux-x86_64.tar.zst")
 sha256sums=('6726f376afc4384fc2f53e0752aa72dd30c09bd148cd52087523b12998f0c3b2'
             'f2b1b89528db67173e667850ebcdda9fcfcdd7e005568eef8cfc36f707e2226a')
-sha256sums_x86_64=('2b651b863d4aa974a2b1b83d58a30ab59df5da1b7e2e95ad54e39ba9dc293e36')
+sha256sums_x86_64=('002183df8357393298d34cc610e980311d7b590635a5939f84f72fbe9a482359')
 
 package() {
   local release_dir="${srcdir}/booty-${pkgver}-linux-x86_64"
