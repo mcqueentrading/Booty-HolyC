@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Booty Terminal
+GenericName=Terminal Emulator
+Comment=Pilgrim-HolyC native Wayland terminal
+Exec=booty
+Icon=utilities-terminal
+Terminal=false
+Categories=System;TerminalEmulator;
+Keywords=terminal;shell;holyc;wayland;
+StartupNotify=false
+StartupWMClass=booty-window

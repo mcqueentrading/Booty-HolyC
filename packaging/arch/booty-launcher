@@ -1,0 +1,15 @@
+#!/bin/sh
+
+user_config="${XDG_CONFIG_HOME:-${HOME}/.config}/booty/booty.lua"
+
+if [ -f "${user_config}" ]; then
+  BOOTY_CONFIG="${user_config}"
+else
+  BOOTY_CONFIG="/usr/share/booty/booty.lua"
+fi
+
+export BOOTY_CONFIG
+export BOOTY_ROOT="/usr/share/booty"
+export SDL_VIDEODRIVER="${SDL_VIDEODRIVER:-wayland}"
+
+exec /usr/lib/booty/booty "$@"

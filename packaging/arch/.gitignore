@@ -1,0 +1,4 @@
+/booty-*-linux-x86_64.tar.zst
+/*.pkg.tar.zst
+/pkg/
+/src/

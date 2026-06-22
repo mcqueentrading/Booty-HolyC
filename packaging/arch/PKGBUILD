@@ -1,0 +1,40 @@
+# Maintainer: Toni McQueen <72049786+mcqueentrading@users.noreply.github.com>
+
+pkgname=booty-terminal-bin
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Binary-only Pilgrim-HolyC Wayland terminal preview"
+arch=('x86_64')
+url="https://github.com/mcqueentrading/Booty-HolyC"
+license=('custom:BNCSL-1.1')
+depends=('bash' 'glibc' 'sdl2-compat' 'sdl2_ttf' 'wayland' 'noto-fonts')
+provides=('booty-terminal')
+conflicts=('booty-terminal')
+options=('!strip' '!debug')
+source=('booty-launcher' 'booty.desktop')
+source_x86_64=("booty-${pkgver}-linux-x86_64.tar.zst::${url}/releases/download/v${pkgver}/booty-${pkgver}-linux-x86_64.tar.zst")
+sha256sums=('6726f376afc4384fc2f53e0752aa72dd30c09bd148cd52087523b12998f0c3b2'
+            'f2b1b89528db67173e667850ebcdda9fcfcdd7e005568eef8cfc36f707e2226a')
+sha256sums_x86_64=('2b651b863d4aa974a2b1b83d58a30ab59df5da1b7e2e95ad54e39ba9dc293e36')
+
+package() {
+  local release_dir="${srcdir}/booty-${pkgver}-linux-x86_64"
+
+  install -Dm755 "${release_dir}/bin/booty" \
+    "${pkgdir}/usr/lib/booty/booty"
+  install -Dm755 "${srcdir}/booty-launcher" \
+    "${pkgdir}/usr/bin/booty"
+  install -Dm644 "${release_dir}/config/booty.lua" \
+    "${pkgdir}/usr/share/booty/booty.lua"
+  install -Dm644 "${srcdir}/booty.desktop" \
+    "${pkgdir}/usr/share/applications/booty.desktop"
+
+  install -Dm644 "${release_dir}/LICENSE" \
+    "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm644 "${release_dir}/README.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+  install -Dm644 "${release_dir}/RELEASE_NOTES.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/RELEASE_NOTES.md"
+  install -Dm644 "${release_dir}/THIRD_PARTY_NOTICES.md" \
+    "${pkgdir}/usr/share/doc/${pkgname}/THIRD_PARTY_NOTICES.md"
+}

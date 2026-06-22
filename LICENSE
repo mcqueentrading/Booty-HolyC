@@ -1,59 +1,138 @@
-Booty Non-Commercial Share-Back License 1.0 (BNCSL-1.0)
+Booty Non-Commercial Share-Back License 1.1 (BNCSL-1.1)
 
 Copyright (c) 2026 Toni McQueen
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated binary release materials (the "Software"), to
-use, copy, modify, and redistribute the Software for Non-Commercial Purposes,
-subject to the following conditions:
+This is a custom, non-open-source licence. It grants only the permissions
+stated below. Third-party components and materials remain governed by their
+own licences and are excluded from the definition of the Software.
 
-1. The above copyright notice and this permission notice shall be included in
-   all copies or substantial portions of the Software.
+1. Definitions
 
-2. The Software may not be used for a Commercial Purpose without prior written
-   permission from the copyright holder.
+"Software" means the Booty executable and Booty-authored release materials
+distributed with this licence, including updates supplied under this licence.
 
-3. The name "Booty", the Booty branding, and the name of the copyright holder
-   may not be used to endorse or promote derived products without prior written
-   permission.
+"Modified Version" means any version of the Software that is patched,
+translated, adapted, decompiled and recompiled, combined with Booty-derived
+code, or otherwise modified in a way that requires permission from the
+copyright holder. Independently created programs that merely communicate with
+Booty through a documented, general-purpose interface are not Modified
+Versions solely because of that communication.
 
-4. Any person or organisation that modifies the Software must provide the
-   copyright holder, without charge, a complete copy of the modified executable
-   and all patches, source code, build scripts, configuration changes,
-   documentation, or other materials reasonably necessary to reproduce the
-   modification. The share-back must be made within 30 days after the modified
-   version is first used, tested, published, or distributed, whichever occurs
-   first. It may be submitted through the official Booty repository or another
-   delivery method designated by the copyright holder.
+"Corresponding Modification Materials" means the complete preferred materials
+needed to understand, reproduce, build, install, and run a Modified Version,
+including source code, binary patches, build scripts, configuration changes,
+toolchain instructions, and modification documentation. Materials unrelated to
+the modification do not need to be provided.
 
-5. Any redistributed modified version or derivative work must retain this
-   licence, clearly identify that it has been modified, state the identity of
-   the modifier, and include the date and a description of the changes. No
-   additional terms may remove the non-commercial or share-back requirements.
+"Commercial Purpose" means use intended to obtain direct or indirect commercial
+advantage or monetary compensation. It includes:
+
+- sale, licensing, paid distribution, or paid access;
+- use in a product, subscription, hosted service, or paid client deliverable;
+- internal business use that materially supports revenue-generating activity;
+- bundling with commercial hardware, software, training, or support;
+- use supported by advertising, sponsorship, or product-linked donations;
+- use by a contractor or Affiliate for any of the above; and
+- avoiding these conditions by providing access to functionality over a
+  network instead of distributing a copy.
+
+"Affiliate" means an entity that controls, is controlled by, or is under common
+control with another entity.
 
 "Non-Commercial Purpose" means personal use, education, academic research,
-charitable activity, hobby development, evaluation, or redistribution without
-commercial advantage or monetary compensation.
+charitable activity, hobby development, evaluation, or non-commercial
+redistribution without commercial advantage or monetary compensation.
 
-"Commercial Purpose" means use of the Software that is primarily intended for
-commercial advantage or monetary compensation, including, without limitation:
+2. Grant
 
-- selling or licensing the Software or a product containing the Software;
-- charging for access to the Software or a service substantially powered by it;
-- using the Software in paid client work or as part of a paid deliverable;
-- bundling the Software with a commercial product or subscription; or
-- using the Software internally where its primary purpose is to support a
-  revenue-generating product or service.
+Subject to every condition in this licence, permission is granted, free of
+charge, to use, copy, modify, and redistribute the Software solely for
+Non-Commercial Purposes. No Commercial Purpose is permitted without a separate
+written commercial licence from the copyright holder.
 
-Commercial licences and exceptions may be requested from the copyright holder.
+3. Notices and Attribution
+
+Every copy or substantial portion of the Software must include this licence,
+the copyright notice above, and the supplied third-party notices. A Modified
+Version must be clearly marked as modified and identify the modifier, date,
+and material changes.
+
+4. Mandatory Share-Back
+
+Anyone who creates a Modified Version must provide the copyright holder,
+without charge, with:
+
+- the complete modified executable or binary; and
+- all Corresponding Modification Materials.
+
+Delivery must occur no later than 30 days after the Modified Version is first
+run, tested, published, made available to another person, or used for any
+purpose, whichever occurs first. Delivery may be made through
+https://github.com/mcqueentrading/Booty-HolyC or another method designated by
+the copyright holder.
+
+The share-back obligation applies even when the Modified Version is used only
+internally or made available through a network. It does not require disclosure
+of independent programs or confidential information that is unrelated to the
+modification.
+
+5. Redistribution of Modified Versions
+
+A redistributed Modified Version must remain under BNCSL-1.1. No additional
+term may remove or weaken the non-commercial, attribution, notice, or
+share-back conditions. This clause does not alter the licence of an
+independent work merely aggregated with the Software.
+
+6. Third-Party Rights
+
+This licence applies only to rights owned by Toni McQueen. It does not replace,
+restrict, relicense, or grant rights in third-party code, libraries, assets,
+protocol specifications, trademarks, or other materials. Recipients must
+comply with THIRD_PARTY_NOTICES.md and all applicable third-party licences.
+
+7. Names and Marks
+
+This licence does not grant permission to use "Booty", its logos or branding,
+or the copyright holder's name to imply endorsement or to brand a derived
+product. Accurate attribution and factual compatibility statements are
+permitted.
+
+8. No Source Availability Promise
+
+Distribution of an executable under this licence does not obligate the
+copyright holder to publish Booty's original source code. Section 4 applies to
+materials created or used by a person modifying the distributed Software.
+
+9. Termination and Cure
+
+Rights under this licence terminate automatically upon breach. For a first
+breach, rights are reinstated if the breach is fully cured within 30 days after
+the person discovers it or receives notice, whichever occurs first. Repeated,
+wilful, or uncured breaches require express written reinstatement.
+
+10. No Waiver; Severability
+
+Failure to enforce a provision is not a waiver. If a provision is held
+unenforceable, it shall be narrowed only as much as necessary, and the
+remaining provisions continue in effect. This licence may not be avoided by
+using an Affiliate, contractor, intermediary, hosted service, or technical
+arrangement to perform an act that the licensee could not perform directly.
+
+11. Governing Law
+
+This licence is governed by the laws of England and Wales, without regard to
+conflict-of-law rules. The courts of England and Wales have exclusive
+jurisdiction, except where applicable law requires otherwise.
+
+12. Disclaimer
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
 
-This licence contains non-commercial-use and mandatory share-back restrictions
-and is therefore not an Open Source Initiative approved open-source licence.
+BNCSL-1.1 contains non-commercial-use and mandatory share-back restrictions.
+It is not approved by the Open Source Initiative and must not be described as
+an open-source licence.
