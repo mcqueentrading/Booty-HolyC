@@ -11,6 +11,7 @@ Initial precompiled Linux `x86_64` preview.
 - Alternate-screen and cursor-addressed TUI improvements
 - Mouse scrolling, scrollbar dragging, selection, copy, and paste
 - Native Wayland file drag-and-drop with shell-safe path insertion
+- Peach-only bundled graphics sample; old development sample models removed
 - Configurable transparency, colours, font, cursor, and selection
 - Initial JIT and actor runtime scaffolding
 - TLauncher/fzf alternate-screen selection movement through corrected arrow
@@ -34,7 +35,7 @@ Initial precompiled Linux `x86_64` preview.
 The release binary was produced from the private Booty development checkpoint:
 
 ```text
-1f6e8dd41142904183dde6eaf16cd1bd978bb200
+fc9849230ff7dd0a4e33126e70a478a66466bd37
 ```
 
 The executable reports `Booty 0.0.1-window - HolyC` at startup.

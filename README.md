@@ -28,6 +28,7 @@ The native application currently provides:
 - mouse-wheel and draggable-scrollbar navigation
 - mouse text selection and clipboard integration
 - native Wayland file drag-and-drop into the active shell command
+- one cleared bundled peach graphics proof asset
 - configurable colours, opacity, font, selection, cursor, and accent
 - Booty JIT/actor scaffolding for later hosted HolyC and Temple compatibility
 

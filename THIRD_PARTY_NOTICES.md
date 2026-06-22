@@ -57,3 +57,13 @@ link libGL.
 Users should obtain complete library copyright and licence texts from their
 Linux distribution packages. Nothing in BOOTY-1.1 replaces or restricts rights
 granted by a third-party licence.
+
+## Bundled Asset
+
+Booty 0.0.1 includes one bundled graphics proof asset:
+
+- `assets/booty-peach/booty-peach.glb`
+
+This peach model is included as the cleared Booty visual sample for this binary
+release. Older development-only sample assets are not included in this release
+package.
