@@ -10,6 +10,7 @@ booty.prompt = ""
 booty.banner = true
 booty.font_family = "OpenDyslexic Mono"
 booty.font_path = ""
+booty.font_size = 19
 booty.bash_fallback = true
 booty.preview_actor = false
 booty.preview_backend = "holyc-gl"
@@ -23,7 +24,7 @@ booty.accent_color = "00ccff"
 booty.background_opacity = 0.5
 booty.background_tint = 1.4
 booty.background_layer = "TerminalBackgroundLayer"
-booty.cursor_model_asset = "assets/booty-peach/booty-peach.glb"
+booty.cursor_model_asset = "assets/booty-peach/booty-peach-cursor.glb"
 booty.cursor_model_scale = 5.0
 booty.cursor_model_brightness = 1.0
 booty.cursor_model_x_offset = 18.0
@@ -41,5 +42,5 @@ booty.cursor_texture_light_gain = 0.22
 -- not the primary path to inline 3D cursor/object rendering.
 -- booty.actor("preview0", "preview-render")
 -- booty.actor("graphics", "renderer")
--- booty.asset("peach", "assets/booty-peach/booty-peach.glb")
+-- booty.asset("peach", "assets/booty-peach/booty-peach-cursor.glb")
 -- booty.text("boot-msg", 0, 0, "Booty config online")
