@@ -32,7 +32,7 @@ Initial precompiled Linux `x86_64` preview.
 
 ## Build Provenance
 
-The release binary was produced from the private Booty development checkpoint:
+The release binary was produced from Booty development checkpoint:
 
 ```text
 a54bfc0386cef8679d6ae6a55e83ed59a0a9c365

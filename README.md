@@ -1,13 +1,11 @@
 # Booty Terminal 0.0.1
 
-Booty is a compact Wayland terminal application built with Pilgrim-HolyC. It
+Booty is a compact Wayland terminal application built with Pure-HolyC. It
 owns its native SDL window, runs a real interactive Bash session through a PTY,
 and maintains its own terminal cell grid, scrollback, viewport, selection, and
 rendering state.
 
-This repository is the binary-only preview release. It intentionally does not
-contain Booty's HolyC source, compiler tree, development tools, renderer proof
-backends, test fixtures, or private project documentation.
+This repository is the binary preview release channel for Booty 0.0.1.
 
 ## Why Booty
 
@@ -110,16 +108,15 @@ sha256sum -c SHA256SUMS
 
 ## Release Status
 
-Version 0.0.1 is a private-preview-quality binary checkpoint. The terminal is
-usable, but the project still has larger planned work around direct OpenGL
-composition, live 3D cursor actors, hosted HolyC JIT execution, Temple-family
-compatibility, broader VT coverage, packaging, and memory optimization.
+Version 0.0.1 is an early binary checkpoint. The terminal is usable, but the
+project still has larger planned work around direct OpenGL composition, live
+3D cursor actors, hosted HolyC JIT execution, Temple-family compatibility,
+broader VT coverage, packaging, and memory optimization.
 
 ## Source Availability
 
-This release is distributed as a precompiled binary. Application source code
-is not included. The binary may be used, copied, modified, and redistributed
-for non-commercial purposes under the
+This release is distributed as a precompiled binary. The binary may be used,
+copied, modified, and redistributed for non-commercial purposes under the
 [BOOTY-1.1](LICENSE), the Booty Original Ownership, Terms and Yield-Back
 License. Commercial use requires
 prior written permission, and all modifications must be shared back with the
@@ -128,5 +125,8 @@ copyright holder together with the materials needed to reproduce them.
 This is a custom non-commercial licence, not an OSI-approved open-source
 licence. See [Third-Party Notices](THIRD_PARTY_NOTICES.md) for the separate
 rights attached to referenced projects and system libraries.
+
+Redistribution must preserve `LICENSE`, `TONI_MCQUEEN_NOTICE.md`, and
+`THIRD_PARTY_NOTICES.md`.
 
 Maintained by Toni McQueen.

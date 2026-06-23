@@ -3,7 +3,7 @@
 pkgname=booty-terminal-bin
 pkgver=0.0.1
 pkgrel=5
-pkgdesc="Binary-only Pilgrim-HolyC Wayland terminal preview"
+pkgdesc="Binary-only Pure-HolyC Wayland terminal preview"
 arch=('x86_64')
 url="https://github.com/mcqueentrading/Booty-HolyC"
 license=('custom:BOOTY-1.1')
@@ -15,7 +15,7 @@ source=('booty-launcher' 'booty.desktop')
 source_x86_64=("booty-${pkgver}-linux-x86_64.tar.zst::${url}/releases/download/v${pkgver}/booty-${pkgver}-linux-x86_64.tar.zst")
 sha256sums=('6726f376afc4384fc2f53e0752aa72dd30c09bd148cd52087523b12998f0c3b2'
             'f2b1b89528db67173e667850ebcdda9fcfcdd7e005568eef8cfc36f707e2226a')
-sha256sums_x86_64=('4984dc31ddd65366496c3db3740deb56d4d29832a5778862f0f3593363c5a500')
+sha256sums_x86_64=('c84663cfa48dfe5186d69911dbcd0608b60b63f27c87fbc359797b411ad529e5')
 
 package() {
   local release_dir="${srcdir}/booty-${pkgver}-linux-x86_64"
@@ -33,6 +33,8 @@ package() {
 
   install -Dm644 "${release_dir}/LICENSE" \
     "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm644 "${release_dir}/TONI_MCQUEEN_NOTICE.md" \
+    "${pkgdir}/usr/share/licenses/${pkgname}/TONI_MCQUEEN_NOTICE.md"
   install -Dm644 "${release_dir}/README.md" \
     "${pkgdir}/usr/share/doc/${pkgname}/README.md"
   install -Dm644 "${release_dir}/RELEASE_NOTES.md" \

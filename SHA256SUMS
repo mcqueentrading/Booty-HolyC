@@ -1,4 +1,4 @@
-673d5d2772af3199fe545ead92ca237e0a927be6da77ee11dbd48d6fb2ac92e4  booty-binary-release/bin/booty
-2867fb12af39ae8c0af3a859658e9c5781d61188f4e914fe737ac0393eea94a8  booty-binary-release/config/booty.lua
-1d6d0bb2ea4325163ac794dae120e272d2b4e14f8a3ac9b54e09dadf9a5dd5ae  booty-binary-release/assets/booty-peach/booty-peach.glb
-4984dc31ddd65366496c3db3740deb56d4d29832a5778862f0f3593363c5a500  booty-binary-release/dist/booty-0.0.1-linux-x86_64.tar.zst
+673d5d2772af3199fe545ead92ca237e0a927be6da77ee11dbd48d6fb2ac92e4  bin/booty
+2867fb12af39ae8c0af3a859658e9c5781d61188f4e914fe737ac0393eea94a8  config/booty.lua
+1d6d0bb2ea4325163ac794dae120e272d2b4e14f8a3ac9b54e09dadf9a5dd5ae  assets/booty-peach/booty-peach.glb
+c84663cfa48dfe5186d69911dbcd0608b60b63f27c87fbc359797b411ad529e5  dist/booty-0.0.1-linux-x86_64.tar.zst

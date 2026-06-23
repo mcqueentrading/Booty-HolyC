@@ -3,6 +3,10 @@
 The Booty licence applies only to Booty-authored material. The rights and
 obligations below remain independent of BOOTY-1.1.
 
+Booty package attribution to Toni McQueen is provided in
+`TONI_MCQUEEN_NOTICE.md`. Redistribution of the binary package should preserve
+that notice beside `LICENSE` and this file.
+
 ## Dynamically Linked System Libraries
 
 The Booty 0.0.1 executable dynamically links libraries supplied by the user's
@@ -33,5 +37,4 @@ Booty 0.0.1 includes one bundled graphics proof asset:
 - `assets/booty-peach/booty-peach.glb`
 
 This peach model is included as the cleared Booty visual sample for this binary
-release. Older development-only sample assets are not included in this release
-package.
+release.

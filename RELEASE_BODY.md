@@ -22,7 +22,7 @@ window.
 - native Wayland file drag-and-drop with shell-safe path insertion
 - configurable transparency, colours, font, selection, and cursor
 
-The binary was built from private Booty development checkpoint
+The binary was built from Booty development checkpoint
 `a54bfc0386cef8679d6ae6a55e83ed59a0a9c365`.
 
 ## Licence
