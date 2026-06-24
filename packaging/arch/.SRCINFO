@@ -20,6 +20,6 @@ pkgbase = booty-terminal-bin
 	sha256sums = 6726f376afc4384fc2f53e0752aa72dd30c09bd148cd52087523b12998f0c3b2
 	sha256sums = f2b1b89528db67173e667850ebcdda9fcfcdd7e005568eef8cfc36f707e2226a
 	source_x86_64 = booty-0.0.1-linux-x86_64.tar.zst::https://github.com/mcqueentrading/Booty-HolyC/releases/download/v0.0.1/booty-0.0.1-linux-x86_64.tar.zst
-	sha256sums_x86_64 = c84663cfa48dfe5186d69911dbcd0608b60b63f27c87fbc359797b411ad529e5
+	sha256sums_x86_64 = 5929041fbd949c901c69d833c3ca55eccd07267bcc388a0c20e855ebc57ed985
 
 pkgname = booty-terminal-bin

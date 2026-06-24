@@ -1,5 +1,13 @@
 # Booty Terminal 0.0.1
 
+<p align="center">
+  <img
+    src="/assets/booty-holyc-logo.png?raw=true"
+    alt="Booty HolyC Shell logo"
+    title="Booty HolyC Shell"
+    width="420"/>
+</p>
+
 Booty is a compact Wayland terminal application built with Pure-HolyC. It
 owns its native SDL window, runs a real interactive Bash session through a PTY,
 and maintains its own terminal cell grid, scrollback, viewport, selection, and
